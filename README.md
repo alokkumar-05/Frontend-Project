@@ -13,6 +13,3 @@ A live analog clock built using HTML, CSS, and JavaScript.
 - Smooth rotation of hour, minute, and second hands
 - Responsive design
 
-### 📸 Preview:
-![Analog Clock Preview](Analog%20Clock/clock.png)
-
