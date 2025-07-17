@@ -1,0 +1,37 @@
+.clockContainer {
+  position: relative;
+  margin: 100px auto;
+  height: 400px;
+  width: 400px;
+  background: url("clock.png") no-repeat center;
+  background-size: cover;
+}
+
+/* Clock hands */
+#hour, #minute, #second {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+#hour {
+  height: 90px;
+  width: 8px;
+  background-color: #000;
+}
+
+#minute {
+  height: 120px;
+  width: 6px;
+  background-color: #555;
+}
+
+#second {
+  height: 80px;
+  width: 2px;
+  background-color: red;
+}
+
